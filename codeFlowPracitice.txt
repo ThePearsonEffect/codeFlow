@@ -1,0 +1,101 @@
+// Original section
+let x = 3;
+let y = 5;
+
+x = y + 1; // line 3
+y = x - 1; // line 4
+x = y * 2; // line 5
+y = x / 2; // line 6
+
+// Predict the final values of x and y.
+
+// Additional section 1
+let a = 5;
+let b = 7;
+
+a = b + 2; // line 3
+b = 10;    // line 4
+a = a * b; // line 5
+b = b + a; // line 6
+
+// Predict the value of a...
+// ... after line 3 executes?
+// ... after line 4 executes?
+// ... after line 5 executes?
+// ... after line 6 executes?
+
+// Additional section 2
+let wish = "Good";                  		//line 1
+const farewell = wish + 'bye';			//line 2
+wish = "Hey";					//line 3
+let yellFarewell = farewell + '!';		//line 4
+let surprisedFarewell = "Wow! " + farewell; 	//line 5
+
+// What is the value of wish after line 1 executes?
+// What is the value of farewell after line 2 executes?
+// What is the value of wish after line 3 executes?
+// What is the value of yellFarewell after line 4 executes?
+// What is the value of surprisedFarewell after line 5 executes?
+
+
+
+
+let x = 3;
+let y = 5;
+
+x = y + 1; // line 3
+y = x - 1; // line 4
+x = y * 2; // line 5
+y = x / 2; // line 6
+```
+
+1. **Before line 3**: \( x = 3, y = 5 \)
+2. **Line 3**: \( x = y + 1 \) → \( x = 5 + 1 = 6 \) → **(x = 6)**
+3. **Line 4**: \( y = x - 1 \) → \( y = 6 - 1 = 5 \) → **(y = 5)**
+4. **Line 5**: \( x = y * 2 \) → \( x = 5 * 2 = 10 \) → **(x = 10)**
+5. **Line 6**: \( y = x / 2 \) → \( y = 10 / 2 = 5 \) → **(y = 5)**
+
+**Final values**: \( x = 10, y = 5 \)
+
+let a = 5;
+let b = 7;
+
+a = b + 2; // line 3
+b = 10;    // line 4
+a = a * b; // line 5
+b = b + a; // line 6
+
+
+1. **Before line 3**: \( a = 5, b = 7 \)
+2. **Line 3**: \( a = b + 2 \) → \( a = 7 + 2 = 9 \) → **(a = 9)**
+3. **Line 4**: \( b = 10 \) → **(b = 10)**
+4. **Line 5**: \( a = a * b \) → \( a = 9 * 10 = 90 \) → **(a = 90)**
+5. **Line 6**: \( b = b + a \) → \( b = 10 + 90 = 100 \) → **(b = 100)**
+
+**Values after each line**:
+
+- After line 3: \( a = 9 \)
+- After line 4: \( b = 10 \)
+- After line 5: \( a = 90 \)
+- After line 6: \( b = 100 \)
+
+let wish = "Good";                  		//line 1
+const farewell = wish + 'bye';			//line 2
+wish = "Hey";					//line 3
+let yellFarewell = farewell + '!';		//line 4
+let surprisedFarewell = "Wow! " + farewell; 	//line 5
+
+
+1. **After line 1**: \( wish = "Good" \)
+2. **After line 2**: \( farewell = "Goodbye" \) → **(farewell = "Goodbye")**
+3. **After line 3**: \( wish = "Hey" \) → **(wish = "Hey")**
+4. **After line 4**: \( yellFarewell = farewell + '!' \) → \( yellFarewell = "Goodbye!" \) → **(yellFarewell = "Goodbye!")**
+5. **After line 5**: \( surprisedFarewell = "Wow! " + farewell \) → \( surprisedFarewell = "Wow! Goodbye" \) → **(surprisedFarewell = "Wow! Goodbye")**
+
+**Values**:
+- After line 1: \( wish = "Good" \)
+- After line 2: \( farewell = "Goodbye" \)
+- After line 3: \( wish = "Hey" \)
+- After line 4: \( yellFarewell = "Goodbye!" \)
+- After line 5: \( surprisedFarewell = "Wow! Goodbye" \)
+
